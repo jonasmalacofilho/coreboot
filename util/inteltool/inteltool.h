@@ -259,6 +259,10 @@ static inline uint32_t inl(unsigned port)
 #define PCI_DEVICE_ID_INTEL_CORE_7TH_GEN_U	0x5904 /* Kabylake (Mobile) */
 #define PCI_DEVICE_ID_INTEL_CORE_7TH_GEN_Y	0x590C /* Kabylake (Mobile) */
 #define PCI_DEVICE_ID_INTEL_CORE_7TH_GEN_U_Q	0x5914 /* Kabylake (Mobile) */
+#define PCI_DEVICE_ID_INTEL_CORE_8TH_GEN_D	0x3e0f /* Coffee Lake (Desktop) */
+#define PCI_DEVICE_ID_INTEL_CORE_8TH_GEN_D2	0x3e1f /* Coffee Lake (Desktop) */
+#define PCI_DEVICE_ID_INTEL_CORE_8TH_GEN_D3	0x3ec2 /* Coffee Lake (Desktop) */
+#define PCI_DEVICE_ID_INTEL_CORE_8TH_GEN_D4	0x3e30 /* Coffee Lake (Desktop) */
 
 
 /* Intel GPUs */
