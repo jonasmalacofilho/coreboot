@@ -190,6 +190,7 @@ static inline uint32_t inl(unsigned port)
 #define PCI_DEVICE_ID_INTEL_82G41		0x2e30
 #define PCI_DEVICE_ID_INTEL_82B43		0x2e40
 #define PCI_DEVICE_ID_INTEL_82B43_2		0x2e90
+#define PCI_DEVICE_ID_INTEL_Z370		0xa2c9
 
 #define PCI_DEVICE_ID_INTEL_C8_MOBILE		0x8c41
 #define PCI_DEVICE_ID_INTEL_C8_DESKTOP		0x8c42

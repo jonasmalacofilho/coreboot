@@ -751,6 +751,7 @@ int print_pmbase(struct pci_dev *sb, struct pci_access *pacc)
 	case PCI_DEVICE_ID_INTEL_SUNRISEPOINT_LP_U_IHDCP_BASE:
 	case PCI_DEVICE_ID_INTEL_SUNRISEPOINT_LP_U_IHDCP_PREM:
 	case PCI_DEVICE_ID_INTEL_SUNRISEPOINT_LP_Y_IHDCP_PREM:
+	case PCI_DEVICE_ID_INTEL_Z370:
 		pmbase = pci_read_word(sb, 0x40) & 0xff80;
 		pm_registers = pch_pm_registers;
 		size = ARRAY_SIZE(pch_pm_registers);
